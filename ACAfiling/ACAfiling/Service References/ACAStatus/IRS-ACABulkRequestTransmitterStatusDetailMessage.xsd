@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="urn:us:gov:treasury:irs:msg:irstransmitterstatusrequest" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:air7.0="urn:us:gov:treasury:irs:ext:aca:air:7.0" xmlns:irs="urn:us:gov:treasury:irs:common" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:us:gov:treasury:irs:msg:irstransmitterstatusrequest" version="1.0" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="../EXT/IRS-EXT-ACA-AIR-7.0.xsd" namespace="urn:us:gov:treasury:irs:ext:aca:air:7.0" />
+  <xsd:import schemaLocation="../MSG/IRS-WSTimeStampElementMessage.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" />
+  <xsd:element name="ACABulkRequestTransmitterStatusDetailRequest" type="ACABulkRequestTransmitterStatusDetailRequestType" />
+  <xsd:element name="ACABulkRequestTransmitterStatusDetailResponse" type="ACABulkRequestTransmitterStatusDetailResponseType" />
+  <xsd:complexType name="ACABulkRequestTransmitterStatusDetailRequestType">
+    <xsd:sequence>
+      <xsd:element ref="air7.0:ACABulkReqTrnsmtStsReqGrpDtl" />
+    </xsd:sequence>
+    <xsd:attribute fixed="1.0" name="version" type="xsd:string" />
+    <xsd:attributeGroup ref="wsu:commonAtts" />
+  </xsd:complexType>
+  <xsd:complexType name="ACABulkRequestTransmitterStatusDetailResponseType">
+    <xsd:sequence>
+      <xsd:element ref="air7.0:ACABulkRequestTransmitterResponse" />
+      <xsd:element ref="air7.0:ACABulkReqTrnsmtStsRespGrpDtl" />
+    </xsd:sequence>
+    <xsd:attribute fixed="1.0" name="version" type="xsd:string" />
+  </xsd:complexType>
+  <xsd:element name="ACABusinessHeader" type="air7.0:ACABulkBusinessHeaderRequestType">
+    <xsd:annotation>
+      <xsd:documentation>
+        <Component xmlns="urn:us:gov:treasury:irs:msg:irstransmitterstatusrequest">
+          <DictionaryEntryNm>ACA (Affordable Care Act) Business Header Detail Type</DictionaryEntryNm>
+          <MajorVersionNum>1</MajorVersionNum>
+          <MinorVersionNum>0</MinorVersionNum>
+          <VersionEffectiveBeginDt>2012-10-25</VersionEffectiveBeginDt>
+          <VersionDescriptionTxt>Initial version</VersionDescriptionTxt>
+          <DescriptionTxt>Message payload for the SOA service that obtains information for the ACA business header detail</DescriptionTxt>
+        </Component>
+      </xsd:documentation>
+    </xsd:annotation>
+  </xsd:element>
+</xsd:schema>

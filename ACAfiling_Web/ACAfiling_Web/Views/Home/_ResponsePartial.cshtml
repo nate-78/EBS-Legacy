@@ -1,0 +1,65 @@
+﻿<!-- change this to a foreach... -->
+@using EbsClassPkg.Models;
+@using ACAfiling_Web.Controllers;
+
+<div class="row">
+    <div class="response col-md-12">
+        <h3>Notes:</h3>
+        @Html.Raw(ViewBag.notes)
+        @if (ViewBag.Responses != null && ViewBag.Responses.Count > 0) {
+            <div class="result">
+                <p>The data was transferred to the IRS in @ViewBag.Responses.Count.ToString() transmission(s).</p>
+            </div>
+        } else {
+            <div class="result">The "response" object is null.</div>
+        }
+    </div>
+
+    @if (ViewBag.Responses != null && ViewBag.Responses.Count > 0) {
+        <div class="response col-md-12">
+            <h3>IRS Response:</h3>
+            @foreach (CustomResponse response in ViewBag.Responses) {
+                <div class="result">
+                    @if (response.Successful) { // successful submission
+                        <p>Status Code: 
+                            @if (!String.IsNullOrEmpty(response.StatusCode)) {
+                                Html.Encode(response.StatusCode);
+                            } else {
+                                Html.Raw("Processing");
+                            }
+                            @if (!String.IsNullOrEmpty(response.ReceiptId)) {
+                                Html.Encode("<br />Receipt ID: " + response.ReceiptId);
+                            }
+                            <br />@response.StatusMessage
+                        </p>
+                    } else { // no response, or error
+                        Html.Encode("<p>Error Code: " + response.StatusCode + "<br />" + response.StatusMessage + "</p>");
+                    }
+                </div>
+            }
+        </div>
+    } <!-- end if ViewBag.Responses... -->
+
+    @if (ViewBag.errorCount != null && ViewBag.errorCount > 0) {
+        <div class="response  col-md-12">
+            <h3>@ViewBag.errorCount.ToString() Miscellaneous Errors Encountered While Parsing Data:</h3>
+            @Html.Raw(ViewBag.errors)
+        </div>
+    }<!-- end if ViewBag.errorCount... -->
+
+</div>
+
+       <!-- <div class="row">
+            <div class="response col-md-12">
+                <h3>Notes:</h3>
+                @Html.Raw(ViewBag.notes)
+                @if (ViewBag.result != null) {
+                    <h3>IRS Response:</h3>
+                    @Html.Raw(ViewBag.result)
+                }
+            </div>
+            <div class="response error col-md-12">
+                <h3>The submission has @Html.Raw(ViewBag.errorCount) errors:</h3>
+                @Html.Raw(ViewBag.errors)
+            </div>
+        </div>-->

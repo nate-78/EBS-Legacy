@@ -1,0 +1,58 @@
+﻿@using EbsClassPkg.Models;
+@using EbsClassPkg.Controllers;
+
+@if (ViewBag.Update != null && 
+    (ViewBag.Update != null && ViewBag.Update.StatusType != "Error") && 
+    (ViewBag.Update.StatusMessage == null ||
+    (ViewBag.Update.StatusMessage != null && !ViewBag.Update.StatusMessage.Contains("in just a moment")))) {
+    StatusUpdate su = ViewBag.Update;
+    string updateClass = ReportBuilder.GetStatusClass(su.StatusType);
+    <div class="update">
+        <span class="datetime">
+            @su.Timestamp.ToString()
+        </span>
+        <span class="tax-yr">
+
+        </span>
+        <!-- company not needed... receipt id shouldn't be either, right? -->
+        <span class="company"></span>
+        <span class="receipt-id">
+            @if (!String.IsNullOrEmpty(su.ReceiptId)) {
+                @su.ReceiptId
+            } else {
+                <small>No Receipt ID has been assigned.</small>
+            }
+        </span>
+        <!-- is unique id worth printing? Could it be different? -->
+        <span class="unique-id">
+
+        </span>
+        <span class="notes">
+            @su.StatusMessage
+        </span>
+        <span class="status @updateClass">
+            @su.StatusType
+        </span>
+    </div>
+    <!-- BUTTON SO USER CAN REQUEST NEW UPDATE FROM IRS -->
+    <div class="update check-for-new">
+        <span class="datetime">
+            <a href="javascript:void(0);" class="get-update">Check for New Update</a>
+        </span>
+    </div>
+} else {
+    <!-- no update returned... -->
+    <div class="update check-for-new">
+        <span class="datetime"> <!-- BUTTON SO USER CAN REQUEST NEW UPDATE FROM IRS -->
+            <a href="javascript:void(0);" class="get-update">Check for New Update</a>
+        </span>
+        <span class="tax-yr"></span>
+        <!-- company not needed... receipt id shouldn't be either, right? -->
+        <span class="company"></span>
+        <span class="receipt-id"></span>
+        <!-- is unique id worth printing? Could it be different? -->
+        <span class="unique-id"></span>
+        <span class="notes">The request encountered an unspecified error. Please try again in just a moment.</span>
+        <span class="status"></span>
+    </div>
+}

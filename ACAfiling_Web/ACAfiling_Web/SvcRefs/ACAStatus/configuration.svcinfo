@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configurationSnapshot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="urn:schemas-microsoft-com:xml-wcfconfigurationsnapshot">
+  <behaviors />
+  <bindings>
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;GetACATransmitterStatusReqBinding&quot;&gt;&lt;security mode=&quot;Transport&quot; /&gt;&lt;/Data&gt;" bindingType="basicHttpBinding" name="GetACATransmitterStatusReqBinding" />
+    <binding digest="System.ServiceModel.Configuration.BasicHttpBindingElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089:&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data name=&quot;GetACATransmitterStatusReqBinding1&quot; /&gt;" bindingType="basicHttpBinding" name="GetACATransmitterStatusReqBinding1" />
+  </bindings>
+  <endpoints>
+    <endpoint normalizedDigest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://la.www4.irs.gov/airp/aca/a2a/1095BC_Status_Request_AATS2016&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;GetACATransmitterStatusReqBinding&quot; contract=&quot;ACAStatus.ACATransmitterStatusReqPortType&quot; name=&quot;ACATransmitterStatusReqPort&quot; /&gt;" digest="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;Data address=&quot;https://la.www4.irs.gov/airp/aca/a2a/1095BC_Status_Request_AATS2016&quot; binding=&quot;basicHttpBinding&quot; bindingConfiguration=&quot;GetACATransmitterStatusReqBinding&quot; contract=&quot;ACAStatus.ACATransmitterStatusReqPortType&quot; name=&quot;ACATransmitterStatusReqPort&quot; /&gt;" contractName="ACAStatus.ACATransmitterStatusReqPortType" name="ACATransmitterStatusReqPort" />
+  </endpoints>
+</configurationSnapshot>

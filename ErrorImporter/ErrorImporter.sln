@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorImporter", "ErrorImporter\ErrorImporter.csproj", "{35508394-CCA9-40C8-8745-762FA1640BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbsClassPkg", "..\..\EbsClassPkg\EbsClassPkg\EbsClassPkg.csproj", "{45538C7F-D0FA-490E-BE28-4B83FC9E1999}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35508394-CCA9-40C8-8745-762FA1640BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35508394-CCA9-40C8-8745-762FA1640BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35508394-CCA9-40C8-8745-762FA1640BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35508394-CCA9-40C8-8745-762FA1640BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45538C7F-D0FA-490E-BE28-4B83FC9E1999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45538C7F-D0FA-490E-BE28-4B83FC9E1999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45538C7F-D0FA-490E-BE28-4B83FC9E1999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45538C7F-D0FA-490E-BE28-4B83FC9E1999}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE0ADEAD-6AF8-47F7-9115-26E46BDB7A55}
+	EndGlobalSection
+EndGlobal

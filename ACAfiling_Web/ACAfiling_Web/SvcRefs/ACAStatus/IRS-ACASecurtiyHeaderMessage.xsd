@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="urn:us:gov:treasury:irs:msg:acasecurityheader" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:irs="urn:us:gov:treasury:irs:common" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:us:gov:treasury:irs:msg:acasecurityheader" version="1.1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="../COMMON/IRS-CAC.xsd" namespace="urn:us:gov:treasury:irs:common" />
+  <xsd:import schemaLocation="../MSG/IRS-WSSecurityElementMessage.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" />
+  <xsd:element name="ACASecurityHeader" type="TransmitterACASecurityHeaderType">
+    <xsd:annotation>
+      <xsd:documentation>
+        <Component xmlns="urn:us:gov:treasury:irs:msg:acasecurityheader">
+          <DictionaryEntryNm>ACA (Affordable Care Act) Security Header Detail Type</DictionaryEntryNm>
+          <MajorVersionNum>1</MajorVersionNum>
+          <MinorVersionNum>0</MinorVersionNum>
+          <VersionEffectiveBeginDt>2015-03-08</VersionEffectiveBeginDt>
+          <VersionDescriptionTxt>Initial version</VersionDescriptionTxt>
+          <DescriptionTxt>Message payload for the SOA service that obtains information for the ACA Security header detail</DescriptionTxt>
+        </Component>
+      </xsd:documentation>
+    </xsd:annotation>
+  </xsd:element>
+  <xsd:complexType name="TransmitterACASecurityHeaderType">
+    <xsd:annotation>
+      <xsd:documentation>
+        <Component xmlns="urn:us:gov:treasury:irs:msg:acasecurityheader">
+          <DictionaryEntryNm>Transmitter Security Header Type</DictionaryEntryNm>
+          <MajorVersionNum>1</MajorVersionNum>
+          <MinorVersionNum>1</MinorVersionNum>
+          <VersionEffectiveBeginDt>2014-11-04</VersionEffectiveBeginDt>
+          <VersionDescriptionTxt>Initial Version</VersionDescriptionTxt>
+          <DescriptionTxt>Transmitter Security Header for 1094-1095B/C Forms Upstream</DescriptionTxt>
+        </Component>
+      </xsd:documentation>
+    </xsd:annotation>
+    <xsd:choice>
+      <xsd:element minOccurs="0" ref="irs:UserId" />
+    </xsd:choice>
+  </xsd:complexType>
+</xsd:schema>

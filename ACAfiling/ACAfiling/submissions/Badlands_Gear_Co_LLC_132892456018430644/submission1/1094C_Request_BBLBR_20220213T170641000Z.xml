@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:Form109495CTransmittalUpstream xmlns:p="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage" xmlns:p1="urn:us:gov:treasury:irs:ext:aca:air:ty21" xmlns:p2="urn:us:gov:treasury:irs:common" xmlns:p3="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage IRS-Form1094-1095CTransmitterUpstreamMessage.xsd ">
+<p1:Form1094CUpstreamDetail lineNum="0" recordType="">
+<p1:SubmissionId>1</p1:SubmissionId>
+<p1:TaxYr>2021</p1:TaxYr>
+<p1:CorrectedInd>0</p1:CorrectedInd>
+<p1:EmployerInformationGrp>
+<p1:BusinessName>
+<p1:BusinessNameLine1Txt>Badlands Gear Co LLC</p1:BusinessNameLine1Txt>
+</p1:BusinessName>
+<p1:BusinessNameControlTxt>BADL</p1:BusinessNameControlTxt>
+<p2:TINRequestTypeCd>BUSINESS_TIN</p2:TINRequestTypeCd>
+<p2:EmployerEIN>861380511</p2:EmployerEIN>
+<p1:MailingAddressGrp>
+<p1:USAddressGrp>
+<p1:AddressLine1Txt>9865 South 500 West</p1:AddressLine1Txt>
+<p2:CityNm>Sandy</p2:CityNm>
+<p1:USStateCd>UT</p1:USStateCd>

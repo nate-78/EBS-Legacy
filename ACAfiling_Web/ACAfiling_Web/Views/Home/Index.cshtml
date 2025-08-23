@@ -1,0 +1,73 @@
+﻿@using EbsClassPkg.Models
+@{
+    ViewBag.Title = "ezACAfile | EBS";
+}
+<h1>Submit &amp; Review ACA Files</h1>
+<div class="page-container">
+    <div id="sorting" class="clearfix">
+        <div id="aca-logo">
+            <a href="/Home/AcaFile"><img src="~/Images/logo-aca.png" alt="ezACAfile" /></a>
+        </div>
+        <div id="tax-year-select">
+            Tax Year:
+            <select id="tax-year">
+                <option>&nbsp;</option>
+                @if (ViewBag.TaxYrs != null && ViewBag.TaxYrs.Count > 0) {
+                    foreach (string ty in ViewBag.TaxYrs) {
+                        <option value="@ty">@ty</option>
+                    }
+                }
+            </select>
+        </div>
+        <div id="sorting-controls">
+            Sort by: 
+            <select id="sort-by"><!--used to include "Status" too, but became problematic when we started nesting submissions-->
+                <option></option>
+                <option value="Date">Date</option>
+                <option value="Client">Client</option>
+            </select>
+            <select id="statuses">
+                <option>select...</option>
+                @Html.Action("GetSearchTerms", "Home", new { sortType = "Status" })
+            </select>
+            <input type="text" id="sort-param" placeholder="search" />
+            <div id="search-terms"></div>
+            <button id="sort-btn">Sort</button>
+        </div>
+        
+    </div>
+    
+    
+    <!-- build tabs -->
+    <div class="tabs-container">
+        <div class="tab-btns">
+            <a href="javascript:void(0);" class="selected">Current Submissions</a>
+            <a href="javascript:void(0);">Archived Submissions</a>
+            <a href="javascript:void(0);">Submit Records</a>
+            <a href="javascript:void(0);">Enter Receipt ID</a>
+            <a href="javascript:void(0);">Track Submissions</a>
+        </div>
+        <div class="tab-content-container">
+            <!-- now individual contents -->
+            <div class="tab-content" id="pending-subs">
+                <!-- review pending submissions -->
+                @Html.Action("StatusReporting", "Home", new { sortType = "Date", sortParam = "", showArchive = false })
+            </div>
+            <div class="tab-content" id="archived-subs">
+                <!-- review past submissions -->
+                @Html.Action("StatusReporting", "Home", new { sortType = "Date", sortParam = "", showArchive = true })
+            </div>
+            <div class="tab-content">
+                <!-- submit records -->
+                @Html.Action("SubmitData", "Home")
+            </div>
+            <div class="tab-content">
+                @Html.Action("EnterReceiptID", "Home")
+            </div>
+            <div class="tab-content">
+                @Html.Action("TrackSubmissionForm", "Home")
+            </div>
+        </div>
+    </div>
+</div>
+

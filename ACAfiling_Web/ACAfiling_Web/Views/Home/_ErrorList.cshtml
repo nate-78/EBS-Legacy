@@ -1,0 +1,40 @@
+﻿@if (ViewBag.Errors != null && ViewBag.Errors.Count > 0) {
+    <div class="child-error col-md-12 clearfix">
+        <div class="child-heading col-md-2">
+            Error Code
+        </div>
+        <div class="child-heading col-md-4">
+            Error Message
+        </div>
+        <div class="child-heading col-md-2">
+            Record ID
+        </div>
+        <div class="child-heading col-md-4">
+            Name
+        </div>
+    </div>
+    foreach (EbsClassPkg.Models.ErrorFromIrs err in ViewBag.Errors) {
+        <div class="child-error col-md-12 clearfix">
+            <div class="child-text col-md-2">
+                @err.ErrorCode
+            </div>
+            <div class="child-text col-md-4">
+                @err.ErrorMessage
+            </div>
+            <div class="child-text col-md-2 center-align">
+                @if (err.RecordId > 0) {
+                    <span>@err.RecordId.ToString()</span>
+                } else {
+                    <span>N/A</span>
+                }
+            </div>
+            <div class="child-text col-md-4">
+                @if (err.Person != null && !String.IsNullOrEmpty(err.Person.FirstName)) {
+                    <span>@Html.Raw(err.Person.LastName + ", " + err.Person.FirstName + " " + err.Person.MiddleName)</span>
+                } else {
+                    <span>N/A</span>
+                }
+            </div>
+        </div>
+    }
+}

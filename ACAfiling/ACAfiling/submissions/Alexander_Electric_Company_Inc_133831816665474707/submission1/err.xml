@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:FormBCTransmitterSubmissionDtl xmlns="urn:us:gov:treasury:irs:ext:aca:air:ty24" xmlns:ns2="urn:us:gov:treasury:irs:common" xmlns:ns3="urn:us:gov:treasury:irs:msg:form1094-1095BCtransmittermessage">
+    <ACATransmitterSubmissionDetail>
+        <TransmitterErrorDetailGrp>
+            <SubmissionLevelStatusCd>Accepted with Errors</SubmissionLevelStatusCd>
+            <UniqueSubmissionId>1094C-25-00036017|1</UniqueSubmissionId>
+        </TransmitterErrorDetailGrp>
+        <TransmitterErrorDetailGrp>
+            <UniqueRecordId>1094C-25-00036017|1|83</UniqueRecordId>
+            <ns2:ErrorMessageDetail>
+                <ns2:ErrorMessageCd>1095C-010-01</ns2:ErrorMessageCd>
+                <ns2:ErrorMessageTxt>Form 1095C 'OtherCompletePersonName' and 'SSN' in 'EmployeeInfoGrp' must match IRS database.</ns2:ErrorMessageTxt>
+                <ns2:XpathContent>/Form109495CTransmittalUpstream/Form1094CUpstreamDetail/Form1095CUpstreamDetail/EmployeeInfoGrp/SSN</ns2:XpathContent>
+            </ns2:ErrorMessageDetail>
+        </TransmitterErrorDetailGrp>
+        <TransmitterErrorDetailGrp>
+            <UniqueRecordId>1094C-25-00036017|1|147</UniqueRecordId>
+            <ns2:ErrorMessageDetail>
+                <ns2:ErrorMessageCd>1095C-010-01</ns2:ErrorMessageCd>
+                <ns2:ErrorMessageTxt>Form 1095C 'OtherCompletePersonName' and 'SSN' in 'EmployeeInfoGrp' must match IRS database.</ns2:ErrorMessageTxt>
+                <ns2:XpathContent>/Form109495CTransmittalUpstream/Form1094CUpstreamDetail/Form1095CUpstreamDetail/EmployeeInfoGrp/SSN</ns2:XpathContent>
+            </ns2:ErrorMessageDetail>
+        </TransmitterErrorDetailGrp>
+        <TransmitterErrorDetailGrp>
+            <UniqueRecordId>1094C-25-00036017|1|197</UniqueRecordId>
+            <ns2:ErrorMessageDetail>
+                <ns2:ErrorMessageCd>1095C-010-01</ns2:ErrorMessageCd>
+                <ns2:ErrorMessageTxt>Form 1095C 'OtherCompletePersonName' and 'SSN' in 'EmployeeInfoGrp' must match IRS database.</ns2:ErrorMessageTxt>
+                <ns2:XpathContent>/Form109495CTransmittalUpstream/Form1094CUpstreamDetail/Form1095CUpstreamDetail/EmployeeInfoGrp/SSN</ns2:XpathContent>
+            </ns2:ErrorMessageDetail>
+        </TransmitterErrorDetailGrp>
+    </ACATransmitterSubmissionDetail>
+</ns3:FormBCTransmitterSubmissionDtl>

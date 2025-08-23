@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" attributeFormDefault="unqualified" blockDefault="#all" elementFormDefault="qualified" targetNamespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" version="0.2" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import schemaLocation="../MSG/IRS-WSTimeStampElementMessage.xsd" namespace="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" />
+  <xsd:import schemaLocation="../MSG/IRS-WSSignatureElementMessage.xsd" namespace="http://www.w3.org/2000/09/xmldsig#" />
+  <xsd:complexType name="SecurityHeaderType">
+    <xsd:annotation>
+      <xsd:documentation>This complexType defines header block to use for
+				security-relevant data directed at a specific SOAP actor.
+			</xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element minOccurs="0" ref="ds:Signature" />
+      <xsd:element minOccurs="0" ref="wsu:Timestamp" />
+    </xsd:sequence>
+    <xsd:anyAttribute namespace="##other" processContents="lax" />
+  </xsd:complexType>
+  <xsd:element name="Security" type="wsse:SecurityHeaderType">
+    <xsd:annotation>
+      <xsd:documentation>This element defines the wsse:Security SOAP header
+				element per Section 4.</xsd:documentation>
+    </xsd:annotation>
+  </xsd:element>
+</xsd:schema>

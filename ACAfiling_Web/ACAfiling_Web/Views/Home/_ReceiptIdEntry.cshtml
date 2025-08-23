@@ -1,0 +1,21 @@
+﻿@using ACAfiling_Web.Models
+@using EbsClassPkg.Models
+<div class="receipt-id-entry-content">
+    <p class="lead">Record Your Receipt ID</p>
+    <p>This form will only be used if your submission was entered manually via the IRS's UI portal.</p>
+    <form id="receipt-id-entry" action="/Home/EnterReceiptID" method="post" enctype="multipart/form-data">
+        <p>Select the submission this Receipt ID belongs to:</p>
+        <select id="receiptless-submissions" style="max-width: 100%; margin-bottom: 10px;">
+            @if (ViewBag.Submissions != null && ViewBag.Submissions.Count > 0) {
+                <option value="">Please select a submission:</option>
+                foreach (Record s in ViewBag.Submissions) {
+                    <option value="@s.UniqueId">@s.Company.Name : @s.UniqueId</option>
+                }
+            } else {
+                <option>Sorry, but there are no submissions to select at this time</option>
+            }
+        </select><br />
+        <input type="text" placeholder="Receipt ID" id="receipt-id" />
+    </form>
+    <p><a href="javascript:void(0);" class="btn btn-primary btn-lg" id="receipt-id-entry-btn">Submit &raquo;</a></p>
+</div>

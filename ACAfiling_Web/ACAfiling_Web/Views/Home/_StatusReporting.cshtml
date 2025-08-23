@@ -1,0 +1,66 @@
+﻿@using EbsClassPkg.Models;
+@using EbsClassPkg.Controllers;
+@{
+    ViewBag.Title = "Statuses & Reporting";
+}
+
+<div id="">
+    <div id="status-container" class="row">
+        <div id="submission-list" class="">
+            <!--@ViewBag.Message
+            <p class="page-instructions">@ViewBag.Instructions</p>-->
+            @if (ViewBag.Submissions != null) {
+                <div class="submission heading col-md-12 clearfix">
+                    <span class="col-md-3">Company</span>
+                    <span class="col-md-2">Timestamp</span>
+                    <span class="col-md-2">Receipt ID</span>
+                    <span class="col-md-2">1094-C Status</span>
+                    <span class="col-md-2">1095-C Status</span>
+                </div>
+                foreach (Record rec in ViewBag.Submissions) {
+                    // only show records that aren't child records
+                    if (String.IsNullOrEmpty(rec.ParentSubId.ToString()) || rec.ParentSubId == 0) {
+                        // determine status class
+                        string statClass = ReportBuilder.GetStatusClass(rec.Current1095Status);
+                        string statClass1094 = ReportBuilder.GetStatusClass(rec.Current1094Status);
+                        <div class="submission col-md-12 clearfix">
+                            <div class="col-md-12 clearfix">
+                                <input type="hidden" class="unique-id" value="@rec.UniqueId" />
+                                <div class="col-md-3">
+                                    @if (!String.IsNullOrEmpty(rec.Company.DisplayName)) {
+                                        @Html.Raw(rec.Company.DisplayName)
+                                    } else {
+                                        @Html.Raw(rec.Company.Name + " " + rec.Company.Name2)
+                                    }
+                                </div>
+                                <div class="datetime col-md-2">
+                                    @rec.TimeStampGMT
+                                </div>
+                                <div class="receipt-id col-md-2">
+                                    @if (!String.IsNullOrEmpty(rec.ReceiptId)) {
+                                        @rec.ReceiptId
+                                    } else {
+                                        <small>No Receipt ID has been assigned.</small>
+                                    }
+                                </div>
+                                <div class="status col-md-2 @statClass1094">
+                                    @rec.Current1094Status
+                                </div>
+                                <div class="status @statClass col-md-2">
+                                    @rec.Current1095Status
+                                </div>
+                                <div class="archive-btn col-md-1" title="Archive">&nbsp;</div>
+                            </div>
+                            <div class="status-updates">
+                        
+                            </div>
+                        </div>
+                    }
+                }
+            }
+        </div>
+        <div id="status-detail" class="">
+
+        </div>
+    </div>
+</div>

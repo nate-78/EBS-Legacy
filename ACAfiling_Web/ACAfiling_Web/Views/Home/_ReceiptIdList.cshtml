@@ -1,0 +1,37 @@
+﻿@using EbsClassPkg.Models;
+@using ACAfiling_Web.Controllers;
+
+@{ 
+    var recs = ViewBag.Records;
+}
+
+<div id="correction-specifics">
+    @if (ViewBag.SubType == "C") {
+        <p class="margin-top">
+            Are you correcting (or replacing) Form 1094-C or Form(s) 1095-C?<br />
+        </p>
+
+        <span>
+            <input type="radio" name="form-type" class="first" checked value="1094" /> 1094-C
+            <input type="radio" name="form-type" value="1095" /> 1095-C
+        </span>
+    } else if (ViewBag.SubType == "R") {
+        <p class="margin-top">
+            Did the error say "Rejected Transmission" or "Rejected Submission"?
+        </p>
+
+        <span>
+            <input type="radio" name="rejection-type" class="first" checked value="transmission" /> Transmission
+            <input type="radio" name="rejection-type" value="submission" /> Submission
+        </span>
+    }
+    <span></span>
+        <select name="receipt-id-list" id="receipt-id-list">
+            <option value="X">Select the Receipt ID of the submission that you're correcting or replacing...</option>
+            @foreach(var rec in recs) {
+                var text = rec.ReceiptId + " - " + rec.Company.Name + ": " + rec.TimeStampGMT;
+                <option value="@rec.ReceiptId">@text</option>
+            }
+        </select>
+    </span>
+</div>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:Form109495CTransmittalUpstream xmlns:p="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage" xmlns:p1="urn:us:gov:treasury:irs:ext:aca:air:ty21" xmlns:p2="urn:us:gov:treasury:irs:common" xmlns:p3="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage IRS-Form1094-1095CTransmitterUpstreamMessage.xsd ">
+<p1:Form1094CUpstreamDetail lineNum="0" recordType="">
+<p1:SubmissionId>1</p1:SubmissionId>
+<p1:TaxYr>2021</p1:TaxYr>
+<p1:CorrectedInd>0</p1:CorrectedInd>
+<p1:EmployerInformationGrp>
+<p1:BusinessName>
+<p1:BusinessNameLine1Txt>Apartment Hunters Inc</p1:BusinessNameLine1Txt>
+</p1:BusinessName>
+<p1:BusinessNameControlTxt>APAR</p1:BusinessNameControlTxt>
+<p2:TINRequestTypeCd>BUSINESS_TIN</p2:TINRequestTypeCd>
+<p2:EmployerEIN>631031253</p2:EmployerEIN>
+<p1:MailingAddressGrp>
+<p1:USAddressGrp>
+<p1:AddressLine1Txt>8841 Helena Road</p1:AddressLine1Txt>
+<p2:CityNm>Pelham</p2:CityNm>
+<p1:USStateCd>AL</p1:USStateCd>
+<p2:USZIPCd>35124</p2:USZIPCd>
+</p1:USAddressGrp>
+</p1:MailingAddressGrp>
+<p1:ContactNameGrp>
+<p1:PersonFirstNm>Brandi</p1:PersonFirstNm>
+<p1:PersonLastNm>Sharit</p1:PersonLastNm>
+</p1:ContactNameGrp>
+<p1:ContactPhoneNum>2055885843</p1:ContactPhoneNum>
+</p1:EmployerInformationGrp>
+<p1:Form1095CAttachedCnt>1</p1:Form1095CAttachedCnt>
+<p1:AuthoritativeTransmittalInd>0</p1:AuthoritativeTransmittalInd>
+<p1:Form1095CUpstreamDetail recordType="" lineNum="0">
+<p1:RecordId>1</p1:RecordId>
+<p1:CorrectedInd>1</p1:CorrectedInd>
+<p1:CorrectedRecordRecipientGrp>
+<p1:CorrectedUniqueRecordId>1094C-22-00090444|1|47</p1:CorrectedUniqueRecordId>
+<p1:CorrectedRecRecipientPrsnName>
+<p1:PersonFirstNm>SHERYL</p1:PersonFirstNm>
+<p1:PersonMiddleNm>A</p1:PersonMiddleNm>
+<p1:PersonLastNm>Strayhorn Johnson</p1:PersonLastNm>
+</p1:CorrectedRecRecipientPrsnName>
+<p1:CorrectedRecRecipientTIN>410295074</p1:CorrectedRecRecipientTIN>
+</p1:CorrectedRecordRecipientGrp>
+<p1:TaxYr>2021</p1:TaxYr>
+<p1:EmployeeInfoGrp>
+<p1:OtherCompletePersonName>
+<p1:PersonFirstNm>SHERYL</p1:PersonFirstNm>
+<p1:PersonMiddleNm>A</p1:PersonMiddleNm>
+<p1:PersonLastNm>Strayhorn Johnson</p1:PersonLastNm>
+</p1:OtherCompletePersonName>
+<p1:PersonNameControlTxt>STRA</p1:PersonNameControlTxt>
+<p2:TINRequestTypeCd>INDIVIDUAL_TIN</p2:TINRequestTypeCd>
+<p2:SSN>410295074</p2:SSN>
+<p1:MailingAddressGrp>
+<p1:USAddressGrp>
+<p1:AddressLine1Txt>4129 SIDLEHILL DRIVE</p1:AddressLine1Txt>
+<p2:CityNm>OLIVE BRANCH</p2:CityNm>
+<p1:USStateCd>MS</p1:USStateCd>
+<p2:USZIPCd>38654</p2:USZIPCd>
+</p1:USAddressGrp>
+</p1:MailingAddressGrp>
+</p1:EmployeeInfoGrp>
+<p1:ALEContactPhoneNum>2055885843</p1:ALEContactPhoneNum>
+<p1:StartMonthNumberCd>09</p1:StartMonthNumberCd>
+<p1:EmployeeOfferAndCoverageGrp>
+<p1:MonthlyOfferCoverageGrp>
+<p1:JanOfferCd>1A</p1:JanOfferCd>
+<p1:FebOfferCd>1A</p1:FebOfferCd>
+<p1:MarOfferCd>1A</p1:MarOfferCd>
+<p1:AprOfferCd>1A</p1:AprOfferCd>
+<p1:MayOfferCd>1A</p1:MayOfferCd>
+<p1:JunOfferCd>1A</p1:JunOfferCd>
+<p1:JulOfferCd>1A</p1:JulOfferCd>
+<p1:AugOfferCd>1A</p1:AugOfferCd>
+<p1:SepOfferCd>1A</p1:SepOfferCd>
+<p1:OctOfferCd>1A</p1:OctOfferCd>
+<p1:NovOfferCd>1A</p1:NovOfferCd>
+<p1:DecOfferCd>1A</p1:DecOfferCd>
+</p1:MonthlyOfferCoverageGrp>
+</p1:EmployeeOfferAndCoverageGrp>
+</p1:Form1095CUpstreamDetail>
+</p1:Form1094CUpstreamDetail>
+</p:Form109495CTransmittalUpstream>

@@ -1,0 +1,60 @@
+﻿<div class="">
+    <p class="lead">Enter Status Update</p>
+    <p>This form will only be used if you are tracking a submission manually via the IRS's UI portal.</p>
+    <form id="status-update-entry" action="/Home/EnterStatusUpdate" method="post" enctype="multipart/form-data">
+        <div class="stat-update-main-fields row">
+            <div class="col-md-3">
+                <input type="text" placeholder="Receipt ID" id="stat-update-rid" name="stat-update-rid" />
+            </div>
+            <div class="col-md-3">
+                <select id="stat-update-status" name="stat-update-status">
+                    <option>Select the appropriate Status...</option>
+                    <!-- get the status types -->
+                    @if (ViewBag.StatusTypes != null && ViewBag.StatusTypes.Count > 0) {
+                        foreach (string t in ViewBag.StatusTypes) {
+                            <option value="@t">@t</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="col-md-5">
+                <input type="text" placeholder="Status Details" id="stat-update-msg" name="stat-update-msg" />
+            </div>
+        </div>
+        <label>Are there errors?</label> <input type="checkbox" id="stat-update-has-errors" name="stat-update-has-errors" value="hasErrors" /><br />
+        <div class="stat-update-extra-fields">
+            <div class="row">
+                <div class="col-md-2">
+                    <strong>Error Code</strong>
+                </div>
+                <div class="col-md-4">
+                    <strong>Error Message</strong>
+                </div>
+                <div class="col-md-3">
+                    <strong>Xpath Content</strong>
+                </div>
+                <div class="col-md-3">
+                    <strong>Record ID</strong> <small>(If Applicable)</small>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <input type="text" id="stat-update-error-code_1" name="stat-update-error-code_1" />
+                </div>
+                <div class="col-md-4">
+                    <input type="text" id="stat-update-error-msg_1" name="stat-update-error-msg_1" />
+                </div>
+                <div class="col-md-3">
+                    <input type="text" id="stat-update-xpath_1" name="stat-update-xpath_1" />
+                </div>
+                <div class="col-md-2">
+                    <input type="text" id="stat-update-error-record-id_1" name="stat-update-error-record-id_1" />
+                </div>
+                <div class="col-md-1">
+                    <button class="stat-update-error-add-row btn" title="add new row">+</button>
+                </div>
+            </div>
+        </div>
+    </form>
+    <p><a href="javascript:void(0);" class="btn btn-primary btn-lg" id="stat-update-entry-btn">Submit &raquo;</a></p>
+</div>

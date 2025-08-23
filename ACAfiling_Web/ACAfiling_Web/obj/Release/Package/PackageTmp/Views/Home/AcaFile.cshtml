@@ -1,0 +1,58 @@
+﻿@using EbsClassPkg.Models
+@{
+    ViewBag.Title = "ezACAfile";
+}
+<div class="logo-page">
+    <a href="/Home/AcaFile"><img src="~/Images/acafile-trans.png" alt="ezACAfile" /></a>
+</div>
+<div class="page-container">
+    <div id="sorting" class="clearfix">
+        <div id="sorting-controls">
+            Sort by: 
+            <select id="sort-by">
+                <option></option>
+                <option value="Date">Date</option>
+                <option value="Status">Status</option>
+                <option value="Client">Client</option>
+            </select>
+            <select id="statuses">
+                <option>select...</option>
+                @Html.Action("GetSearchTerms", "Home", new { sortType = "Status" })
+            </select>
+            <input type="text" id="sort-param" placeholder="search" />
+            <div id="search-terms"></div>
+        </div>
+        <div id="tax-year-select">
+            Tax Year:
+            <select id="tax-year">
+                <option value="2015">2015</option><!-- TODO: pull this dynamically... -->
+            </select>
+        </div>
+    </div>
+    
+    
+    <!-- build tabs -->
+    <div class="tabs-container">
+        <div class="tab-btns">
+            <a href="javascript:void(0);" class="selected">Current Submissions</a>
+            <a href="javascript:void(0);">Archived Submissions</a>
+            <a href="javascript:void(0);">Submit Records</a>
+        </div>
+        <div class="tab-content-container">
+            <!-- now individual contents -->
+            <div class="tab-content" id="pending-subs">
+                <!-- review pending submissions -->
+                @Html.Action("StatusReporting", "Home", new { sortType = "Date", sortParam = "", showArchive = false })
+            </div>
+            <div class="tab-content" id="archived-subs">
+                <!-- review past submissions -->
+                @Html.Action("StatusReporting", "Home", new { sortType = "Date", sortParam = "", showArchive = true })
+            </div>
+            <div class="tab-content">
+                <!-- submit records -->
+                @Html.Action("SubmitData", "Home")
+            </div>
+        </div>
+    </div>
+</div>
+

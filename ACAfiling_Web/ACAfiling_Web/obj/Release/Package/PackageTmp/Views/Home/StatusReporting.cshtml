@@ -1,0 +1,57 @@
+﻿@using EbsClassPkg.Models;
+@using EbsClassPkg.Controllers;
+@{
+    ViewBag.Title = "Statuses & Reporting";
+}
+<h2>@ViewBag.Title</h2>
+
+<div id="page-container">
+    <div id="status-container" class="row">
+        <div id="submission-list" class="col-md-6">
+            @ViewBag.Message
+            <p class="page-instructions">@ViewBag.Instructions</p>
+            @if (ViewBag.Submissions != null) {
+                foreach (Record rec in ViewBag.Submissions) {
+                    // determine status class
+                    string statClass = ReportBuilder.GetStatusClass(rec.StatusUpdates.First().StatusType);
+                    <div class="submission">
+                        <span class="status @statClass">@rec.StatusUpdates.First().StatusType</span>
+                        <span class="company">
+                            @rec.Company.Name
+                            @if (!String.IsNullOrEmpty(rec.Company.Name2)) {
+                                @rec.Company.Name2
+                            }
+                        </span>
+                        <span class="receipt-id">
+                            @if (!String.IsNullOrEmpty(rec.ReceiptId)) {
+                                @Html.Raw("Receipt ID: ") @rec.ReceiptId
+                            } else {
+                                <small>No Receipt ID has been assigned.</small>
+                            }
+                        </span>
+                        <div class="address-info">
+                            <p>
+                                @rec.Company.Address.Address1 <br />
+                                @if (!String.IsNullOrEmpty(rec.Company.Address.Address2)) {
+                                    @rec.Company.Address.Address2 <br />
+                                }
+                                @rec.Company.Address.City, @rec.Company.Address.State @rec.Company.Address.Zip.ToString()@if (!String.IsNullOrEmpty(rec.Company.Address.ZipExt.ToString())) { @Html.Raw("-"); @rec.Company.Address.ZipExt.ToString() } <br />
+                            </p>
+                            @if (!String.IsNullOrEmpty(rec.Company.ContactPerson.FirstName)) {
+                                <p>
+                                    @rec.Company.ContactPerson.FirstName @rec.Company.ContactPerson.LastName
+                                    @if (!String.IsNullOrEmpty(rec.Company.ContactPhone)) {
+                                        @Html.Raw("<br />Phone: ") @rec.Company.ContactPhone
+                                    }
+                                </p>
+                            }
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <div id="status-detail" class="col-md-6">
+            
+        </div>
+    </div>
+</div>

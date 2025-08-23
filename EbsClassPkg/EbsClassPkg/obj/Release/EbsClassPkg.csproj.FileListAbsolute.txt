@@ -1,0 +1,305 @@
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\csc.exe
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\vbc.exe
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\VBCSCompiler.exe
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.dll.config
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.pdb
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Antlr3.Runtime.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.SqlServer.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Newtonsoft.Json.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Helpers.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Mvc.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Optimization.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Razor.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Razor.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\WebGrease.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Helpers.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Mvc.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Optimization.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Razor.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Razor.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Antlr3.Runtime.pdb
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Newtonsoft.Json.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.SqlServer.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.csprojResolveAssemblyReference.cache
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.pdb
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Edm.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.OData.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Services.Client.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\SendGrid.CSharp.HTTP.Client.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\SendGrid.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Net.Http.Formatting.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Spatial.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Edm.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.OData.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Services.Client.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Net.Http.Formatting.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Spatial.xml
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\csc.exe
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\System.Collections.Immutable.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\System.Reflection.Metadata.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\vbc.exe
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\VBCSCompiler.exe
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\VBCSCompiler.exe.config
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.dll.config
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.pdb
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Antlr3.Runtime.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.SqlServer.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.Core.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Edm.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.OData.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Services.Client.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Web.Infrastructure.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Newtonsoft.Json.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\SendGrid.CSharp.HTTP.Client.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\SendGrid.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Net.Http.Formatting.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Spatial.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Helpers.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Mvc.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Optimization.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Razor.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Deployment.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Razor.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\WebGrease.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Antlr3.Runtime.pdb
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EPPlus.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Edm.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.OData.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Services.Client.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Newtonsoft.Json.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Net.Http.Formatting.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Spatial.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Helpers.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Mvc.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Optimization.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Razor.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Deployment.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Razor.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.SqlServer.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.Core.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\System.Spatial.resources.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.csprojResolveAssemblyReference.cache
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.dll
+C:\projects - OwensDev\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.pdb
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\csc.exe
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\System.Collections.Immutable.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\System.Reflection.Metadata.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\vbc.exe
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\VBCSCompiler.exe
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\roslyn\VBCSCompiler.exe.config
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.dll.config
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EbsClassPkg.pdb
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Antlr3.Runtime.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.SqlServer.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.Core.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Edm.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.OData.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Services.Client.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Web.Infrastructure.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Newtonsoft.Json.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\SendGrid.CSharp.HTTP.Client.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\SendGrid.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Net.Http.Formatting.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Spatial.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Helpers.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Mvc.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Optimization.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Razor.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Deployment.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Razor.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\WebGrease.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Antlr3.Runtime.pdb
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\EntityFramework.SqlServer.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.Core.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Edm.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.OData.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.Data.Services.Client.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Microsoft.WindowsAzure.Storage.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\Newtonsoft.Json.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Net.Http.Formatting.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Spatial.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Helpers.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Mvc.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Optimization.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.Razor.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Deployment.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\System.Web.WebPages.Razor.xml
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\de\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\es\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\fr\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\it\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ja\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ko\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\ru\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hans\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\bin\zh-Hant\System.Spatial.resources.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.csproj.AssemblyReference.cache
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.csproj.CoreCompileInputs.cache
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.dll
+C:\owensdev-svn\EBS - ClassPkg\EbsClassPkg\EbsClassPkg\obj\Release\EbsClassPkg.pdb

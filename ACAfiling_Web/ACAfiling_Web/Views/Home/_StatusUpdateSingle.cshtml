@@ -1,0 +1,38 @@
+﻿@using EbsClassPkg.Models;
+@using EbsClassPkg.Controllers;
+
+@if (ViewBag.Update != null &&
+        (ViewBag.Update != null && ViewBag.Update.StatusType != "Error") &&
+        (ViewBag.Update.StatusMessage == null ||
+        (ViewBag.Update.StatusMessage != null && !ViewBag.Update.StatusMessage.Contains("in just a moment")))) {
+
+    StatusUpdate su = ViewBag.Update;
+    string updateClass = ReportBuilder.GetStatusClass(su.StatusType);
+
+    <!--<div class="stat-up col-md-12 child-text clearfix">-->
+        <div class="col-md-4 clearfix">
+            @su.Timestamp
+        </div>
+        <div class="col-md-4 clearfix child-message">
+            @if (su.StatusType == "Rejected" || su.StatusType == "Accepted with errors") {
+                <a href="javascript:void(0)" class="view-error-btn">View Errors</a>
+            } else {
+                @su.StatusMessage
+            }
+        </div>
+        <div class="col-md-4 clearfix @updateClass">
+            @su.StatusType
+        </div>
+    <!--</div>-->
+} else {
+    <!-- no update returned... -->
+    <!--<div class="update check-for-new col-md-12 child-text clearfix">-->
+        <div class="col-md-3">
+            <!-- BUTTON SO USER CAN REQUEST NEW UPDATE FROM IRS -->
+            <a href="javascript:void(0);" class="get-update">Check for New Update</a>
+        </div>
+        <div class="col-md-9">
+            The request encountered an unspecified error. Please try again in just a moment.
+        </div>
+    <!--</div>-->
+}

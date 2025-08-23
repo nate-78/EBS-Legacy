@@ -1,0 +1,100 @@
+﻿@using EbsClassPkg.Models;
+@using EbsClassPkg.Controllers;
+
+@{
+// get overall
+}
+
+@if (ViewBag.Records != null) {
+    foreach (Record rec in ViewBag.Records) {
+        // determine status class
+        string statClass = ReportBuilder.GetStatusClass(rec.StatusUpdates.Last().StatusType);
+        string subType = "Original";
+        if (rec.SubmissionType == "C") {
+            if (rec.Is1094Correction) {
+                subType = "Correction - 1094-C";
+            } else {
+                subType = "Correction - 1095-C(s): " + rec.Ct1095Transmittal.ToString() + " records";
+            }
+
+        } else if (rec.SubmissionType == "R") {
+            subType = "Replacement";
+        } else {
+            // original
+            subType += ": " + rec.Ct1095Transmittal.ToString() + " records";
+        }
+
+        if (!String.IsNullOrEmpty(rec.ReceiptId)) {
+            <div class="child-record clearfix">
+                <input type="hidden" class="child-receipt-id" value="@rec.ReceiptId" />
+                <div class="child-record-details col-md-3 clearfix">
+                    <div class="child-heading clearfix">
+                        Type of Submission
+                    </div>
+                    <div class="child-text clearfix">
+                        @subType
+                    </div>
+                    <div class="child-heading clearfix">
+                        Receipt ID
+                    </div>
+                    <div class="child-text clearfix">
+                        @rec.ReceiptId
+                    </div>
+                </div>
+                <div class="child-status-updates col-md-9 clearfix">
+                    <div class="stat-up col-md-12 child-heading clearfix">
+                        <div class="col-md-3 clearfix">
+                            Timestamp
+                        </div>
+                        <div class="col-md-3 clearfix">
+                            Status Details
+                        </div>
+                        <div class="col-md-3 clearfix">
+                            1094-C
+                        </div>
+                        <div class="col-md-3 clearfix">
+                            1095-C(s)
+                        </div>
+                    </div>
+                    @foreach (StatusUpdate su in rec.StatusUpdates) {
+                        if ((!String.IsNullOrEmpty(su.StatusMessage) && !su.StatusMessage.Contains("successfully created and submitted")) || String.IsNullOrEmpty(su.StatusMessage)) {
+                            <div class="stat-up col-md-12 child-text clearfix">
+                                <div class="col-md-3 clearfix">
+                                    @su.Timestamp.ToString("MM/dd/yy hh:mm tt")
+                                </div>
+                                <div class="col-md-3 clearfix child-message">
+                                    @if (su.StatusType == "Rejected" || su.StatusType == "Accepted with errors") {
+                                        <a href="javascript:void(0)" class="view-error-btn">View Errors</a>
+                                    } else if (!String.IsNullOrEmpty(su.StatusMessage)) {
+                                        @su.StatusMessage
+                                    }
+                                </div>
+                                <div class="col-md-3 clearfix @ReportBuilder.GetStatusClass(ReportBuilder.Get1094Status(su, rec))">
+                                    @ReportBuilder.Get1094Status(su, rec)
+                                </div>
+                                <div class="col-md-3 clearfix @ReportBuilder.GetStatusClass(ReportBuilder.Get1095Status(su, rec))">
+                                    @ReportBuilder.Get1095Status(su, rec)
+                                </div>
+                            </div>
+                            if (su.StatusType == "Rejected" || su.StatusType == "Accepted with errors") {
+                            <div class="child-errors clearfix">
+
+                            </div>
+                            }
+                        }
+                    }
+                    @if (rec.StatusUpdates.Last().StatusType == "Processing") {
+                        <div class="update check-for-new col-md-12">
+                            <div class="col-md-4">
+                                <a href="javascript:void(0);" class="get-update">Check for New Update</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+
+    }
+}
+
+

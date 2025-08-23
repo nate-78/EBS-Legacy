@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Submit Data";
+}
+
+<div class="submit-data">
+    <h4>Upload your Excel spreadsheet (accepts .xls and .xlsx):</h4>
+    <form id="aca-file-upload" action="/Home/SubmitData" method="post" enctype="multipart/form-data">
+        <span>
+            <input type="file" id="uploadedFile" name="uploadedFile" />
+        </span>
+        <!--<input type="submit" class="btn btn-lg btn-primary" value="Submit &raquo;" />-->
+        <p>Type of submission:</p>
+        <!--<input type="radio" name="sub-type" value="O" class="first" checked /> Original
+        <input type="radio" name="sub-type" value="C" /> Correction
+        <input type="radio" name="sub-type" value="R" /> Replacement-->
+        <span>
+            <select name="sub-type" id="sub-type">
+                <option value="X">You must select one...</option>
+                <option value="O">Original</option>
+                <option value="C">Correction</option>
+                <option value="R">Replacement</option>
+            </select>
+        </span>
+    </form>
+    <p><a href="javascript:void(0);" class="btn btn-primary btn-lg" id="air-file-upload">Submit &raquo;</a></p>
+</div>
+

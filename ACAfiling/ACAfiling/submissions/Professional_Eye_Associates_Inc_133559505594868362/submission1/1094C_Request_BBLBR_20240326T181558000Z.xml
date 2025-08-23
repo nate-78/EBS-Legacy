@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:Form109495CTransmittalUpstream xmlns:p="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage" xmlns:p1="urn:us:gov:treasury:irs:ext:aca:air:ty23" xmlns:p2="urn:us:gov:treasury:irs:common" xmlns:p3="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:us:gov:treasury:irs:msg:form1094-1095Ctransmitterupstreammessage IRS-Form1094-1095CTransmitterUpstreamMessage.xsd ">
+<p1:Form1094CUpstreamDetail lineNum="0" recordType="">
+<p1:SubmissionId>1</p1:SubmissionId>
+<p1:TaxYr>2023</p1:TaxYr>
+<p1:CorrectedInd>0</p1:CorrectedInd>
+<p1:EmployerInformationGrp>
+<p1:BusinessName>
+<p1:BusinessNameLine1Txt>Professional Eye Associates Inc</p1:BusinessNameLine1Txt>
+</p1:BusinessName>
+<p1:BusinessNameControlTxt>PROF</p1:BusinessNameControlTxt>
+<p2:TINRequestTypeCd>BUSINESS_TIN</p2:TINRequestTypeCd>
+<p2:EmployerEIN>581148820</p2:EmployerEIN>
+<p1:MailingAddressGrp>
+<p1:USAddressGrp>
+<p1:AddressLine1Txt>1111 Professional Blvd</p1:AddressLine1Txt>
+<p2:CityNm>Dalton</p2:CityNm>
+<p1:USStateCd>GA</p1:USStateCd>
+<p2:USZIPCd>30720</p2:USZIPCd>
+</p1:USAddressGrp>
+</p1:MailingAddressGrp>
+<p1:ContactNameGrp>
+<p1:PersonFirstNm>Sandra</p1:PersonFirstNm>
+<p1:PersonLastNm>Curd</p1:PersonLastNm>
+</p1:ContactNameGrp>
+<p1:ContactPhoneNum>7062262020</p1:ContactPhoneNum>
+</p1:EmployerInformationGrp>
+<p1:Form1095CAttachedCnt>1</p1:Form1095CAttachedCnt>
+<p1:AuthoritativeTransmittalInd>0</p1:AuthoritativeTransmittalInd>
+<p1:Form1095CUpstreamDetail recordType="" lineNum="0">
+<p1:RecordId>1</p1:RecordId>
+<p1:CorrectedInd>1</p1:CorrectedInd>
+<p1:CorrectedRecordRecipientGrp>
+<p1:CorrectedUniqueRecordId>1094C-24-00159779|1|38</p1:CorrectedUniqueRecordId>
+<p1:CorrectedRecRecipientPrsnName>
+<p1:PersonFirstNm>Yolanda</p1:PersonFirstNm>
+<p1:PersonLastNm>Franco</p1:PersonLastNm>
+</p1:CorrectedRecRecipientPrsnName>
+<p1:CorrectedRecRecipientTIN>353848220</p1:CorrectedRecRecipientTIN>
+</p1:CorrectedRecordRecipientGrp>
+<p1:TaxYr>2023</p1:TaxYr>
+<p1:EmployeeInfoGrp>
+<p1:OtherCompletePersonName>
+<p1:PersonFirstNm>Yolanda</p1:PersonFirstNm>
+<p1:PersonLastNm>Franco</p1:PersonLastNm>
+</p1:OtherCompletePersonName>
+<p1:PersonNameControlTxt>FRAN</p1:PersonNameControlTxt>
+<p2:TINRequestTypeCd>INDIVIDUAL_TIN</p2:TINRequestTypeCd>
+<p2:SSN>353848220</p2:SSN>
+<p1:MailingAddressGrp>
+<p1:USAddressGrp>
+<p1:AddressLine1Txt>643 Houston Valley Road</p1:AddressLine1Txt>
+<p2:CityNm>Tunnel Hill</p2:CityNm>
+<p1:USStateCd>GA</p1:USStateCd>
+<p2:USZIPCd>30755</p2:USZIPCd>
+</p1:USAddressGrp>
+</p1:MailingAddressGrp>
+</p1:EmployeeInfoGrp>
+<p1:ALEContactPhoneNum>7062262020</p1:ALEContactPhoneNum>
+<p1:StartMonthNumberCd>01</p1:StartMonthNumberCd>
+<p1:EmployeeOfferAndCoverageGrp>
+<p1:MonthlyOfferCoverageGrp>
+<p1:JanOfferCd>1H</p1:JanOfferCd>
+<p1:FebOfferCd>1H</p1:FebOfferCd>
+<p1:MarOfferCd>1H</p1:MarOfferCd>
+<p1:AprOfferCd>1H</p1:AprOfferCd>
+<p1:MayOfferCd>1H</p1:MayOfferCd>
+<p1:JunOfferCd>1H</p1:JunOfferCd>
+<p1:JulOfferCd>1H</p1:JulOfferCd>
+<p1:AugOfferCd>1H</p1:AugOfferCd>
+<p1:SepOfferCd>1H</p1:SepOfferCd>
+<p1:OctOfferCd>1H</p1:OctOfferCd>
+<p1:NovOfferCd>1H</p1:NovOfferCd>
+<p1:DecOfferCd>1A</p1:DecOfferCd>
+</p1:MonthlyOfferCoverageGrp>
+<p1:MonthlySafeHarborGrp>
+<p1:JanSafeHarborCd>2A</p1:JanSafeHarborCd>
+<p1:FebSafeHarborCd>2A</p1:FebSafeHarborCd>
+<p1:MarSafeHarborCd>2A</p1:MarSafeHarborCd>
+<p1:AprSafeHarborCd>2A</p1:AprSafeHarborCd>
+<p1:MaySafeHarborCd>2A</p1:MaySafeHarborCd>
+<p1:JunSafeHarborCd>2A</p1:JunSafeHarborCd>
+<p1:JulSafeHarborCd>2A</p1:JulSafeHarborCd>
+<p1:AugSafeHarborCd>2D</p1:AugSafeHarborCd>
+<p1:SepSafeHarborCd>2D</p1:SepSafeHarborCd>
+<p1:OctSafeHarborCd>2D</p1:OctSafeHarborCd>
+<p1:NovSafeHarborCd>2D</p1:NovSafeHarborCd>
+</p1:MonthlySafeHarborGrp>
+</p1:EmployeeOfferAndCoverageGrp>
+</p1:Form1095CUpstreamDetail>
+</p1:Form1094CUpstreamDetail>
+</p:Form109495CTransmittalUpstream>

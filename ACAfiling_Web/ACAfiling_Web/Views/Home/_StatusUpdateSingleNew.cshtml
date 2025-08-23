@@ -1,0 +1,18 @@
+﻿@using EbsClassPkg.Models
+@using EbsClassPkg.Controllers
+@{ 
+    Record latestRec = ViewBag.LatestRecord;
+}
+<div class="col-md-3 clearfix">
+    @latestRec.TimeStampGMT
+</div>
+<div class="col-md-3 clearfix child-message">
+    &nbsp;
+</div>
+<div class="col-md-3 clearfix @ReportBuilder.GetStatusClass(latestRec.Current1094Status)">
+    @latestRec.Current1094Status
+</div>
+<div class="col-md-3 clearfix @ReportBuilder.GetStatusClass(latestRec.Current1095Status)">
+    @latestRec.Current1095Status
+</div>
+

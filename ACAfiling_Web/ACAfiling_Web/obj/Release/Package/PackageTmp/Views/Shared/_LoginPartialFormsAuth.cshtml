@@ -1,0 +1,32 @@
+﻿
+@if ((Request.IsAuthenticated || ViewBag.JustLoggedIn != null) && ViewBag.JustLoggedOut == null) {
+    //var email = HttpContext.Current.User.Identity.Name;
+    //// make sure User object is filled out
+    //if (ViewBag.User == null || ViewBag.User.Person == null) {
+    //    ViewBag.User = EZ_ACA_Submission.Controllers.DataController.GetUser(email);
+    //}
+    ViewBag.User = ACAfiling_Web.Models.CurrentUserSingleton.GetUser();
+
+    // user is logged in
+    // get current user
+    <ul class="nav navbar-nav navbar-right login">
+        <li class="welcome">@ViewBag.User.Person.FirstName @ViewBag.User.Person.LastName</li>
+        <li class="">
+            @if (!String.IsNullOrEmpty(ViewBag.User.Company.DisplayName)) {
+                @ViewBag.User.Company.DisplayName
+            } else {
+                @ViewBag.User.Company.Name
+            }
+        </li>
+        <!--<li><a href="javascript:void(0);" id="log-out-btn">Log out</a></li>-->
+    </ul>
+} else {
+    // user isn't logged in: show login form
+    // it won't actually get this far. page redirects to login form now
+    <ul class="nav navbar-nav navbar-right login">
+        <li><input type="text" id="email" placeholder="email" /></li>
+        <li><input type="password" id="pword" placeholder="password" /></li>
+        <li><label>Stay logged in?</label><input type="checkbox" id="persistent" /></li>
+        <li><a href="javascript:void(0);" id="log-in-btn">Log in</a></li>
+    </ul>
+}

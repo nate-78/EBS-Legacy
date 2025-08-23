@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="58b16849-d2a1-4574-b6f8-2b1a7ae6fe88" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="C:\Users\Owens Development\Desktop\projects - OwensDev\EBS - ACAfiling\wsdl_ty2015_v3\SRV\ACAGetTransmitterBulkRequestService.wsdl" Protocol="file" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IRS-WSSignatureElementMessage.xsd" MetadataType="Schema" ID="79424a17-2ed6-445f-88bb-e407f49133e1" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/MSG/IRS-WSSignatureElementMessage.xsd" />
+    <MetadataFile FileName="IRS-ACABusinessHeaderMessage.xsd" MetadataType="Schema" ID="803cd4a9-ddfa-46e0-9f79-23c69c1c7fd2" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/MSG/IRS-ACABusinessHeaderMessage.xsd" />
+    <MetadataFile FileName="IRS-CBC.xsd" MetadataType="Schema" ID="0cb168ce-49aa-4d47-a07a-5a4fc82d2647" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/COMMON/IRS-CBC.xsd" />
+    <MetadataFile FileName="IRS-ACABulkRequestTransmitterMessage.xsd" MetadataType="Schema" ID="ace5479c-78b5-455b-891f-c8aff741f49c" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/MSG/IRS-ACABulkRequestTransmitterMessage.xsd" />
+    <MetadataFile FileName="IRS-WSSecurityElementMessage.xsd" MetadataType="Schema" ID="9ba58528-a6d5-4123-a8e6-ee8420f6961a" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/MSG/IRS-WSSecurityElementMessage.xsd" />
+    <MetadataFile FileName="IRS-WSTimeStampElementMessage.xsd" MetadataType="Schema" ID="c83e8fec-4529-465b-ad9b-5844a77fe52e" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/MSG/IRS-WSTimeStampElementMessage.xsd" />
+    <MetadataFile FileName="ACAGetTransmitterBulkRequestService-1.wsdl" MetadataType="Wsdl" ID="ea7ccd32-2658-446f-9948-3d9a8e4ddb4d" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/SRV/ACAGetTransmitterBulkRequestService.wsdl" />
+    <MetadataFile FileName="IRS-ACASecurtiyHeaderMessage.xsd" MetadataType="Schema" ID="f28a7fb1-99b4-43df-9474-8b9aad5a3b20" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/MSG/IRS-ACASecurtiyHeaderMessage.xsd" />
+    <MetadataFile FileName="IRS-EXT-ACA-AIR-7.xsd" MetadataType="Schema" ID="2540bc85-3573-40e1-b6f1-67f44b2f37c0" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/EXT/IRS-EXT-ACA-AIR-7.0.xsd" />
+    <MetadataFile FileName="IRS-SDT.xsd" MetadataType="Schema" ID="254b1c09-7718-427c-9020-ea8e64687097" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/COMMON/IRS-SDT.xsd" />
+    <MetadataFile FileName="IRS-CAC.xsd" MetadataType="Schema" ID="a95800c7-6331-4f42-b449-58b70c640401" SourceId="1" SourceUrl="file:///C:/Users/Owens Development/Desktop/projects - OwensDev/EBS - ACAfiling/wsdl_ty2015_v3/COMMON/IRS-CAC.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

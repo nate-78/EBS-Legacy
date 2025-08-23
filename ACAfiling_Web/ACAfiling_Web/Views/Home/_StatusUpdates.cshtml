@@ -1,0 +1,99 @@
+﻿@using EbsClassPkg.Models;
+@using EbsClassPkg.Controllers;
+
+@{ 
+    // get overall 
+}
+<!-- add logos, but keep them hidden. they're only used in the print version -->
+<div id="print-main-logo">
+    <img src="~/Images/ebs-logo.png" alt="EBS logo" />
+</div>
+<div id="print-app-logo">
+    <img src="~/Images/acafile.png" alt="" />
+</div>
+
+@if (ViewBag.Records != null) {
+    foreach (Record rec in ViewBag.Records) {
+        <!-- build out the child record elements (based on _StatusReporting template) -->
+        // determine status class
+        string statClass = ReportBuilder.GetStatusClass(rec.StatusUpdates.Last().StatusType);
+        <div class="child-record">
+            @if (!String.IsNullOrEmpty(rec.ParentSubId.ToString()) && rec.ParentSubId > 0) { // only will show child subs
+                <div class="sub-row">
+                    <span class="datetime">
+                        @rec.TimeStampGMT
+                    </span>
+                    <span class="tax-yr">
+
+                    </span>
+                    <span class="company">
+                        @if (rec.Is1094Correction) {
+                            @Html.Raw("1094-C Correction")
+                        } else if (rec.SubmissionType == "C") { // 1095 correction
+                            @Html.Raw("1095-C Correction(s)")
+                        } else if (rec.SubmissionType == "R") {
+                            @Html.Raw("Replacement")
+                        }
+                    </span>
+                    <span class="receipt-id">
+                        @if (!String.IsNullOrEmpty(rec.ReceiptId)) {
+                            @rec.ReceiptId
+                        } else {
+                            <small>No Receipt ID has been assigned.</small>
+                        }
+                    </span>
+                    <span class="unique-id">
+                        @rec.UniqueId
+                    </span>
+                    <span class="notes">
+
+                    </span>
+                    <span class="status @statClass">@rec.StatusUpdates.Last().StatusType</span>
+                </div>
+            }
+            <!-- check for status updates... for each one, build out according to same template -->
+            @if (rec.StatusUpdates != null && rec.StatusUpdates.Count > 0) {
+                foreach (StatusUpdate su in rec.StatusUpdates) {
+                    string updateClass = ReportBuilder.GetStatusClass(su.StatusType);
+                    <div class="update">
+                        <span class="datetime">
+                            @su.Timestamp.ToString("MM/dd/yy hh:mm tt")
+                        </span>
+                        <span class="tax-yr">
+
+                        </span>
+                        <!-- company not needed... receipt id shouldn't be either, right? -->
+                        <span class="company"></span>
+                        <span class="receipt-id">
+                            @if (!String.IsNullOrEmpty(su.ReceiptId)) {
+                                @su.ReceiptId
+                            } else {
+                                <small>No Receipt ID has been assigned.</small>
+                            }
+                        </span>                        
+                        <!-- is unique id worth printing? Could it be different? -->
+                        <span class="unique-id">
+                            
+                        </span>
+                        <span class="notes">
+                            @su.StatusMessage
+                        </span>
+                        <span class="status @updateClass">
+                            @su.StatusType
+                        </span>
+                    </div>
+                } // end foreach
+            } <!-- end if -->
+            <!-- BUTTON SO USER CAN REQUEST NEW UPDATE FROM IRS -->
+            <!--if (rec.StatusUpdates.Last().StatusType == "Processing") {-->
+                <div class="update check-for-new">
+                    <span class="datetime">
+                        <a href="javascript:void(0);" class="get-update">Check for New Update</a>
+                    </span>
+                    <span class="tax-yr"></span>
+                </div>
+            <!--}-->
+        </div>
+
+    } // end foreach
+} <!-- end if -->
