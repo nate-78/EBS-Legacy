@@ -52,11 +52,28 @@ While this application used to be a web job, I now run it manually as a console 
 
 ## Goals and Next Steps
 The manual nature of the current workflow and the great age of the applications is becoming untenable.  I'm worried that we will eventually reach a point where the applications can't do their jobs one year, and we'll be in deep trouble.  We need a fresh build that accomplishes these core bits of functionality:
-1. Accept the same spreadsheet that we've been using
-2. Validate the fields (EBS asked us not to do this initially, but we need basic field validation to avoid stupid errors)
-3. Create the PDFs that will be mailed to the employees (what PdfCreatorWebJob currently does)
-4. Submit the data to the IRS *using the A2A SOAP service channel*
-5. Either pull status updates from the IRS on a schedule or on demand if the user instigates it from our web application
-6. 
+1. Accept the same spreadsheet that we've been using.
+2. Validate the fields (EBS asked us not to do this initially, but we need basic field validation to avoid stupid errors). I imagine we'll have to email the user when validation errors are encountered, rather than checking during the session.
+3. Create the PDFs that will be mailed to the employees (what PdfCreatorWebJob currently does).
+4. Submit the data to the IRS *using the A2A SOAP service channel*.
+5. Either pull status updates from the IRS on a schedule or on demand if the user instigates it from our web application. We will use the SOAP channel for this.
+6. Errors will be processed when the status is retrieved from the IRS.  The status will be maintained on dashboard in the website, but the submitting user will also be notified via email.
 
-### Open Questions
+To achieve these goals, I think we should:
+1. Form a meticulous architecture and execution plan.
+2. Build an API in a different repo (C:\owensdev-git\EBS-v2-API) that will handle all of the backend function discussed above.
+3. Build a front-end application in a different repo (C:\owensdev-git\EBS-v2-UI) that will serve as the interface for the users.
+
+### Supporting Documents
+**Note:** The IRS's documents about AIR, the IRS's XSD files, the IRS's 1094-C and 1095-C files, and the EBS spreadsheet that we use for submitting data can all be found in the `_documents` directory.  These documents and files should be used for context, for developing our plan of action, and for creating the API application. 
+
+### Concerns and Open Questions
+This set of applications is extremely important. This is a very large project (at least, to me it is), and it's imperative that we complete it correctly.  We need to make sure that ever step has been carefully planned, is carefully executed, and is thoroughly tested so we can have a high confidence that the applications are ready for use.
+
+We should always discuss any major step in the plan or any significant decision.  And any time a decision will deviate from the way the code was approached previously, we should discuss.  While the current application is messy and outdated, it does still work accurately.
+
+Here are my ideas about how to approach the project, but these are also open to revision if there are better ideas to consider:
+- **API:** .NET for the API.  The reason for this is that I'm most familiar with .NET for backend coding.  I am open to Node.  I would also consider PHP or Python, but I think .NET will seem more straightforward to me, especially when errors are encountered.  That's also what the existing codebase is written in.  So we can change to something else, but should have very compelling reasons for doing so.
+- **Hosting:** The applications will be hosted on Azure -- or the backend service will be at the very least. I would also consider Netlify for the front-end.
+- **Front-end:** I'm leaning toward building the front-end in Astro.  I do not like React so will not build it in NextJS.  I do like Svelte, so SvelteKit can be considered.  But I would prefer to use Astro unless there's a very good reason not to.
+- **Database:** The current database stores a lot of information, and I wonder if all of that is needed. I would be interested in setting up a new database for this project, and I would like to only store the absolute bare minimum of information.  The current project saves a lot of sensitive information about all of the employees it processes, but I don't know that we need all of that.  We really just need a way to identify which individuals (or at least which records) contain errors when the IRS gives us status updates, so that we can get the correct data from those individuals and submit corrections.  So if there's a simpler, smarter way to be able to make that determination, I'm all for it.
