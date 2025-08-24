@@ -65,7 +65,7 @@ To achieve these goals, I think we should:
 3. Build a front-end application in a different repo (C:\owensdev-git\EBS-v2-UI) that will serve as the interface for the users.
 
 ### Supporting Documents
-**Note:** The IRS's documents about AIR, the IRS's XSD files, the IRS's 1094-C and 1095-C files, and the EBS spreadsheet that we use for submitting data can all be found in the `_documents` directory.  These documents and files should be used for context, for developing our plan of action, and for creating the API application. 
+**Note:** The IRS's documents about AIR, the IRS's XSD files, the IRS's 1095-C files, and the EBS spreadsheet that we use for submitting data can all be found in the `_documents` directory.  These documents and files should be used for context, for developing our plan of action, and for creating the API application. 
 
 ### Concerns and Open Questions
 This set of applications is extremely important. This is a very large project (at least, to me it is), and it's imperative that we complete it correctly.  We need to make sure that ever step has been carefully planned, is carefully executed, and is thoroughly tested so we can have a high confidence that the applications are ready for use.
